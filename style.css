@@ -1,0 +1,96 @@
+* {
+  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+
+ .container{
+   display: flex;
+   justify-content: center;
+  
+   margin-top: 5rem;
+  
+ }
+ 
+ 
+
+ 
+
+
+.card {
+  background-color: rgb(255, 255, 255);
+ 
+  max-width: 800px;
+  
+  display: flex;
+  color: rgb(0, 0, 0);
+  font-size: 28px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  
+  
+  
+ 
+
+}
+
+
+
+img {
+  width: 100%;
+}
+
+#text-wrap {
+  padding: 1rem;
+  text-align: center;
+  display: flex;
+ 
+ 
+  
+
+
+
+ 
+  
+}
+#render {
+ 
+  border-radius:50%;
+  width: 150px;
+  height:100px;
+  background: url("dogecoin.jpg");
+  background-size: cover;
+
+}
+
+    
+  
+ 
+
+/*.button {
+ 
+  display: flex;;
+  justify-content: center;
+  align-content: center;
+  width: 200px;;
+  height: 100px;;
+
+  
+ 
+
+  
+}
+*/
+.btn{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 5rem;
+ 
+  
+}
